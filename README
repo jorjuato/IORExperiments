@@ -1,0 +1,52 @@
+Esta carpeta contiene los archivos para realizar los experimentos de IOR diseñados durante mi estancia en Madrid en 2008. Actualmente hay cinco experimentos distintos diseñados: 
+
+	IOR Clasico: es el experimento de Posner adaptado a la tableta
+	
+	IOR Piloto: es el primer piloto que probé con 3 CTOA y 5 CTDs, desechado
+				por poca significatividad.
+				
+	IOR Discreto: sustituye al anterior en el intento de buscar interacciones
+				 significativas entre la distancia de aparición del tarjet y
+				 la intensidad de la IOR.
+				 
+	IOR Continuo: sustituye al piloto en su intento de parametrizar el 
+				  espacio metrico supuestamente descrito en la interaccion 
+				  
+	IOR Wacom: este experimento pretende salvar los problemas asociados al número 
+				de alternativas por medio de una aproximacion completamente distinta.
+				Ahora se medirá las propiedades cinéticas y espaciales de los movimientos
+				balíticos dirijidos por el sujeto desde el punto de fijacion hasta un tarjet
+				que desaparece al iniciarse el movimiento.
+				
+				
+El resto de las carpetas tienen contenidos comunes a todos los experimentos. Así:
+	misc/ 			,contiene las imágenes que se presentarán asi como otros recursos necesarios
+	
+	oldversions/ 	,contiene versiones antiguas de los distintos programas
+	
+	data/			,contiene los scripts que procesan los distintos datos en crudo de los experimentos. La forma en que procesan 
+					los datos viene especificada por un codigo en su nombre.
+						statsM_ior_clasico.py: 
+						statsM_ior_continuo.py: 
+						statsM_ior_discreto_distance.py: 
+						statsM_ior_discreto_lateral.py: 
+						statsM_ior_piloto_distance.py: 
+						statsM_ior_piloto_lateral.py: 
+						statsM_ior_wacom.py:
+
+	data/rawdata/	,contiene los archivos de datos en crudo generados por los distintos experimentos 
+					el origen del archivo de datos se conoce por el inicio del nombre del archivo. Igualmente
+					aparece en cada archivo la fecha de obtencion de los datos y el nombre del sujeto
+						ior_clasico
+						ior_piloto
+						ior_discreto
+						ior_continuo
+						ior_wacom
+						
+	data/tables/	,contiene las tablas h5 generadas tras leer y procesar los datos de los experimentos.
+	
+	data/graficas/  ,contiene las graficas de los datos estadísticos.	
+	
+	
+	
+	
